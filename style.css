@@ -1,0 +1,22 @@
+body > header {
+    background-color: dodgerblue;
+    color: floralwhite;
+}
+
+
+body > footer {
+    background-color: dodgerblue;
+    color: floralwhite;
+    text-align: center;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    list-style: none;
+}
+
+nav > ul > li > a {
+    padding: 10px
+}
